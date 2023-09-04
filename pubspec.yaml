@@ -1,0 +1,58 @@
+name: farmaenlaceapp
+description: Farmaenlace App
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  animated_bottom_navigation_bar: ^1.2.0
+  connectivity: ^3.0.6
+  cupertino_icons: ^1.0.2
+  fl_chart: ^0.62.0
+  flutter:
+    sdk: flutter
+  flutter_barcode_scanner: ^2.0.0
+  flutter_device_name: ^0.0.1
+  flutter_dotenv: ^5.0.2
+  flutter_localizations:
+    sdk: flutter
+  flutter_phone_direct_caller: ^2.1.1
+  flutter_platform_widgets: ^3.3.5
+  flutter_speed_dial: ^6.2.0
+  flutter_statusbarcolor_ns: ^0.5.0
+  fluttertoast: ^8.2.2
+  google_nav_bar: ^5.0.6
+  http: ^0.13.6
+  intl: any
+  permission_handler: ^10.2.0
+  scandit_flutter_datacapture_barcode: ^6.17.2
+  scandit_flutter_datacapture_core: ^6.17.2
+  shared_preferences: ^2.1.1
+  ternav_icons: ^1.0.0
+  url_launcher: ^6.1.11
+  provider: ^6.0.5 #https://pub.dev/packages/provider
+  quickalert: ^1.0.1 #https://pub.dev/packages/quickalert
+  insta_image_viewer: ^1.0.2 #https://pub.dev/packages/insta_image_viewer
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - lib/assets/images/
+    - lib/assets/images/farmastock/
+    - lib/assets/images/modulos/box/
+    - lib/assets/images/modulos/icon/
+    - .env
+  uses-material-design: true
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
